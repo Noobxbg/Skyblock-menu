@@ -1,0 +1,15 @@
+name: 
+main:
+api:
+version:
+author:
+depend:
+
+  command:
+    skymenu:
+      description: Opens the skyblock menu
+        permission: sky.use
+
+permission:
+  sky.use:
+    description: allow the use of this command
