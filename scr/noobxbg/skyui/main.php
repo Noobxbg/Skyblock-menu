@@ -14,7 +14,7 @@ use pocketmine\event\Listener;
 
 class Main extends PluginBase implements Listener {
   public function onEnable(){
-        $this->getLogger()->info("Test UI By Nomi Enabled");
+        $this->getLogger()->info("Test UI By Noobxg Enabled");
   }
 
   public function onCommand(CommandSender $sender, Command $cmd, String $label, Array $args): bool {
@@ -59,7 +59,7 @@ class Main extends PluginBase implements Listener {
                        }
                     });
                         $form->setTitle("§l§dTest UI");
-                        $form->addButton("§cOption Number 1\n§7Tap to open", 0, "textures/ui/op");
+                        $form->addButton("§cOption Number 1\n§7Is create", 0, "textures/ui/op");
                         $form->addButton("§cOption Number 2\n§7Tap to open", 0, "textures/ui/op");
                         $form->addButton("§cOption Number 3\n§7Tap to open", 0, "textures/ui/op");
                         $form->addButton("§cOption Number 4\n§7Tap to open", 0, "textures/ui/op");
